@@ -10,14 +10,14 @@
 
     - Select source and destination
         - Sketchbook Directory: Usually ```C:/Users/[YOUR_USER_NAME]/Documents/Arduino``` and is listed underneath the "Sketchbook location" in Arduino preferences.
-        - Source Location: ```https://github.com/espressif/arduino-esp32.git```
-        - Target Directory: ```[ARDUINO_SKETCHBOOK_DIR]/hardware/espressif/esp32```
+        - Source Location: ```https://github.com/vpcola/arduino-esp32.git```
+        - Target Directory: ```[ARDUINO_SKETCHBOOK_DIR]/hardware/vpcola/esp32```
         - Click ```Clone``` to start cloning the repository
 
             ![Step 2](win-screenshots/win-gui-2.png)
             ![Step 3](win-screenshots/win-gui-3.png)
-    - open a `Git Bash` session pointing to ```[ARDUINO_SKETCHBOOK_DIR]/hardware/espressif/esp32``` and execute ```git submodule update --init --recursive``` 
-    - Open ```[ARDUINO_SKETCHBOOK_DIR]/hardware/espressif/esp32/tools``` and double-click ```get.exe```
+    - open a `Git Bash` session pointing to ```[ARDUINO_SKETCHBOOK_DIR]/hardware/vpcola/esp32``` and execute ```git submodule update --init --recursive``` 
+    - Open ```[ARDUINO_SKETCHBOOK_DIR]/hardware/vpcola/esp32/tools``` and double-click ```get.exe```
 
         ![Step 4](win-screenshots/win-gui-4.png)
 
@@ -44,6 +44,6 @@
     ![Update Step 2](win-screenshots/win-gui-update-2.png)
 
 3. Wait for git to pull any changes and close ```Git GUI```
-4. Open ```[ARDUINO_SKETCHBOOK_DIR]/hardware/espressif/esp32/tools``` and double-click ```get.exe```
+4. Open ```[ARDUINO_SKETCHBOOK_DIR]/hardware/vpcola/esp32/tools``` and double-click ```get.exe```
 
     ![Step 4](win-screenshots/win-gui-4.png)
